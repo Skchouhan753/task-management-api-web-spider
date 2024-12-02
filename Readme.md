@@ -6,9 +6,7 @@ A Task Management System API is an interface that allows developers to interact 
 ## Project Type
 Backend 
 
-## Deplolyed App
-Backend: https://task-management-system-iqjo.onrender.com/ <br/>
-Database: mongodb+srv://kumarS:kumar@cluster0.kfih6hj.mongodb.net/FLUIDAI?retryWrites=true&w=majority&appName=Cluster0<br/>
+## Mongo URI : mongodb://localhost:27017/ws <br/>
 
 ## Directory Structure
 task-management-system<br/>
