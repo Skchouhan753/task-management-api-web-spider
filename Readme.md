@@ -27,11 +27,6 @@ task-management-system<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ package.json<br/>
 
-## Video Walkthrough of the project
-[video walkthough of all of the features](https://youtu.be/Zw2lwjOq1PA)
-
-## Video Walkthrough of the codebase
-[video walkthough of codebase ](https://youtu.be/P_VHSc9-fZs)
 
 ## Features
 List out the key features of your application.
