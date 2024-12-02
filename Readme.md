@@ -54,9 +54,8 @@ Instructions and examples on to use.
 
 ```bash
 Enviroment
-mongoURI=mongodb+srv://kumarS:kumar@cluster0.kfih6hj.mongodb.net/FLUIDAI?retryWrites=true&w=majority&appName=Cluster0
-                    or
-mongoURI=mongodb://127.0.0.1:27017/FLUIDAI
+
+mongoURI=mongodb://127.0.0.1:27017/ws
 
 PORT=8080
 
@@ -64,13 +63,13 @@ SECRET_CODE=Web-Spider
 
 # Example
 
-POST: http://localhost:8080/
+GET: http://localhost:8080/
         {
             "msg": "wlcome"
         }
 
 Register a user
-POST: http://localhost:8080/register
+POST: http://localhost:8080/users/register
          
         {
              "username":"ws",
@@ -79,14 +78,14 @@ POST: http://localhost:8080/register
         }
 
 Login
-POST: http://localhost:8080/login
+POST: http://localhost:8080/users/login
         {
              "email":"ws@gmail.com",
              "password":"1234"
         }
 
 Create Task
-POST: http://localhost:8080/task/create
+POST: http://localhost:8080/api/tasks/
         {
             "title":"work"
             "description":"home work"
@@ -96,7 +95,7 @@ POST: http://localhost:8080/task/create
         }
 
 Retrieve all task ( you need to login first to access this and while GET request you have to provide token )
-GET: http://localhost:8080/task/
+GET: http://localhost:8080/api/tasks/
 
     [
         {
@@ -126,7 +125,7 @@ GET: http://localhost:8080/task/
     ]
 
 Retrieve single task by id
-GET: http://localhost:8080/task/id
+GET: http://localhost:8080/api/tasks/id
 
         {
             "_id": "6610352efe0cd5e737f45820",
@@ -138,7 +137,7 @@ GET: http://localhost:8080/task/id
         }
 
 Update task
-PATCH: http://localhost:8080/task/id
+PUT: http://localhost:8080/api/tasks/id
         {
             "title":"work24"
             "description":"office work"
@@ -148,7 +147,7 @@ PATCH: http://localhost:8080/task/id
         }
 
 Delete task
-DELETE: http://localhost:8080/taskk/id
+DELETE: http://localhost:8080/api/tasks/id
 ```
 
 Include screenshots as necessary.
