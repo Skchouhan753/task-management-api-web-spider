@@ -6,8 +6,6 @@ A Task Management System API is an interface that allows developers to interact 
 ## Project Type
 Backend 
 
-## Mongo URI : mongodb://localhost:27017/ws <br/>
-
 ## Directory Structure
 task-management-system<br/>
 ├─ backend<br/>
