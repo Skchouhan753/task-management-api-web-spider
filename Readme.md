@@ -46,8 +46,7 @@ Installation
 - you can use any node version that works for you ( 18+ )
 - Navigate to the correct path
 - Run **npm install** to install the node modules
-- Run **npm run server or npm run start** to run the server locally
-- Run **npm test** for the test cases.
+- Run **npm run server** to run the server locally
 ```
 
 ## Usage
