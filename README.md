@@ -54,11 +54,11 @@ Instructions and examples on to use.
 ```bash
 #Enviroment
 
-mongoURI=mongodb://127.0.0.1:27017/ws
+mongoURI=mongodb://127.0.0.1:27017/webspider
 
 PORT=8080
 
-SECRET_CODE=web-spider
+SECRET_CODE = web-spider
 
 # Example
 
