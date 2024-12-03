@@ -38,7 +38,7 @@ Instructions on how to install, configure, and get the project running.
 
 ```bash
 mkdir task-management-system
-git clone https://github.com/Skchouhan753/task-management-system
+git clone https://github.com/Skchouhan753/task-management-api-web-spider
 cd task-management-system
 
 Installation
