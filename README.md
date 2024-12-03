@@ -87,7 +87,7 @@ POST: http://localhost:8080/users/login
 
 
 #Create Task
-POST: http://localhost:8080/task/create
+POST: http://localhost:8080/api/tasks
                 
         {
             "title":"work"
@@ -100,7 +100,7 @@ POST: http://localhost:8080/task/create
         }
 
 #Retrieve all task ( you need to login first to access this and while GET request you have to provide token )
-GET: http://localhost:8080/api/tasks/      
+GET: http://localhost:8080/api/tasks      
 
     [
         {
