@@ -61,24 +61,23 @@ SECRET_CODE=web-spider
 
 # Example
 
-POST: http://localhost:8080/
+GET: http://localhost:8080/
 
         {
             "msg": "wlcome"
         }
 
 Register a user
-POST: http://localhost:8080/register         
+POST: http://localhost:8080/users/register         
 
         {
              "username":"fluidai",
              "email":"fluidai@gmail.com",
-             "password":"1234",
-             "role":"admin" / "user"  default : "user"
+             "password":"1234"
         }
 
 Login
-POST: http://localhost:8080/login
+POST: http://localhost:8080/users/login
              
         {
              "email":"fluidai@gmail.com",
