@@ -153,7 +153,7 @@ PUT: http://localhost:8080/api/tasks/id
         }
 
 #Delete task
-DELETE: http://localhost:8080/taskk/id
+DELETE: http://localhost:8080/api/tasks/id
 
 ```
 
