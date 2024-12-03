@@ -72,8 +72,8 @@ GET: http://localhost:8080/
 POST: http://localhost:8080/users/register         
 
         {
-             "username":"fluidai",
-             "email":"fluidai@gmail.com",
+             "username":"web-spider",
+             "email":"webspider@gmail.com",
              "password":"1234"
         }
 
@@ -81,7 +81,7 @@ POST: http://localhost:8080/users/register
 POST: http://localhost:8080/users/login
              
         {
-             "email":"fluidai@gmail.com",
+             "email":"webspider@gmail.com",
              "password":"1234"
         }
 
