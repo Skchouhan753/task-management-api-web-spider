@@ -99,7 +99,7 @@ POST: http://localhost:8080/task/create
             "updatedAt": 2024-12-01T18:30:00.000+00:00    
         }
 
-Retrieve all task ( you need to login first to access this and while GET request you have to provide token )
+#Retrieve all task ( you need to login first to access this and while GET request you have to provide token )
 GET: http://localhost:8080/api/tasks/      
 
     [
@@ -129,7 +129,7 @@ GET: http://localhost:8080/api/tasks/
         }
     ]
 
-Retrieve single task by id
+#Retrieve single task by id
 GET: http://localhost:8080/api/tasks/id
 
         {
@@ -141,8 +141,8 @@ GET: http://localhost:8080/api/tasks/id
             "status":"COMPLETED"
         }
 
-Update task
-PATCH: http://localhost:8080/api/tasks/id
+#Update task
+PUT: http://localhost:8080/api/tasks/id
                
         {
             "title":"work24"
@@ -152,7 +152,7 @@ PATCH: http://localhost:8080/api/tasks/id
             "status":"COMPLETED"
         }
 
-Delete task
+#Delete task
 DELETE: http://localhost:8080/taskk/id
 
 ```
