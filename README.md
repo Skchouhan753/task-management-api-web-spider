@@ -52,7 +52,8 @@ Installation
 Instructions and examples on to use.
 
 ```bash
-Enviroment
+#Enviroment
+
 mongoURI=mongodb://127.0.0.1:27017/ws
 
 PORT=8080
@@ -67,7 +68,7 @@ GET: http://localhost:8080/
             "msg": "wlcome"
         }
 
-Register a user
+#Register a user
 POST: http://localhost:8080/users/register         
 
         {
@@ -76,7 +77,7 @@ POST: http://localhost:8080/users/register
              "password":"1234"
         }
 
-Login
+#Login
 POST: http://localhost:8080/users/login
              
         {
@@ -85,7 +86,7 @@ POST: http://localhost:8080/users/login
         }
 
 
-Create Task
+#Create Task
 POST: http://localhost:8080/task/create
                 
         {
