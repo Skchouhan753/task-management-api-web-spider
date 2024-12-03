@@ -44,8 +44,8 @@ cd task-management-system
 Installation
 - you can use any node version that works for you ( 18+ )
 - Navigate to the correct path
-- Run **npm install** to install the node modules
-- Run **npm run server or npm run start** to run the server locally
+- Run **npm install** to install node modules
+- Run **npm run server or npm run dev** to run the server locally
 ```
 
 ## Usage
